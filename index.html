@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile-card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <figure>
+        <img
+          data-testid="test-user-avatar"
+          src="https://ca.slack-edge.com/T09AMR8A9C3-U09M9TWAXU1-74f843e44204-512"
+          alt="user-avatar"
+        />
+        <!-- <figurecaption >@jutin</figcaption> -->
+      </figure>
+      <section class="details">
+        <header aria-label="profile-card-header">
+          <h2 data-testid="test-user-name" aria-label="username">
+            Dikonu Jutin
+          </h2>
+          <p data-testid="test-user-bio">
+            Frontend developer with a passion for building intuitive interfaces
+            and solving real-world problems through clean, efficient code
+          </p>
+          <p data-testid="test-user-time">Current Time</p>
+          <nav aria-label="User social media">
+            <ul data-testid="test-user-social-links">
+              <li>
+                <a
+                  href="https://x.com/Jutin001"
+                  data-testid="test-user-social-x"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >X</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/jutin0852"
+                  data-testid="test-user-social-github"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/jutin-dikonu/"
+                  data-testid="test-user-social-linkedin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="info">
+          <section data-testid="test-user-hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+              <li>Bible studies</li>
+              <li>inline Skating</li>
+              <li>Reading</li>
+            </ul>
+          </section>
+
+          <section data-testid="test-user-dislikes">
+            <h3>Dislikes</h3>
+            <ul>
+              <li>Long trips</li>
+              <li>Cold weathers</li>
+              <li>Extremely hot weathers</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+    </article>
+  </body>
+  <script src="script.js"></script>
+</html>
